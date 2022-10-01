@@ -1,0 +1,27 @@
+:root{
+--white: #FFFFFFff;
+--xiketic: #05030Eff;
+--lemon-yellow: #FEF457ff;
+--bright-navy-blue: #017CD1ff;
+--flame: #ED4709ff;
+--prussian-blue: #012F50ff;
+--aqua: #67FFFEff;
+}
+body {
+    background-color: var(--xiketic);
+}
+
+#quizBox {
+    color: var(--aqua);
+    background-color: var(--prussian-blue);
+    width: 100%vp;
+    height: 30rem;
+    margin: 5%;
+    float: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
