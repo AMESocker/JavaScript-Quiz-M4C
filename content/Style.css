@@ -1,21 +1,56 @@
 :root{
---white: #FFFFFFff;
---xiketic: #05030Eff;
---lemon-yellow: #FEF457ff;
---bright-navy-blue: #017CD1ff;
---flame: #ED4709ff;
---prussian-blue: #012F50ff;
---aqua: #67FFFEff;
+/* color palate */
+--1:#FFFFFFff;
+--2:#05030Eff;
+--3:#FEF457ff;
+--4:#017CD1ff;
+--5:#ED4709ff;
+--6:#012F50ff;
+--7:#67FFFEff;  
+
 }
 body {
-    background-color: var(--xiketic);
+    background-color: var(--2);
+    color: var(--7);
+    
+}
+#Title {
+    color:var(--7);
+    font-size: 50px;
+}
+
+#StartQuiz {
+    background-color:
+        var(--3);
+    color:
+        var(--6);
+    font-size: 30px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+#StartQuiz:hover {
+    background-color: var(--1);
+    color:var(--5)
+}
+
+#StartQuiz:active {
+    background-color: var(--5) ;
+    color:var(--1);
+}
+#instructions {
+    color: var(--4);
+    font-size: 19px;
+    margin-top: 7%;
+    margin-inline:15%;
 }
 
 #quizBox {
-    color: var(--aqua);
-    background-color: var(--prussian-blue);
-    width: 100%vp;
-    height: 30rem;
+    color: var(--7);
+    background-color: var(--6);
+    /* width: 100%vw; */
+    min-height: 490px;
+   
     margin: 5%;
     float: center;
     text-align: center;
