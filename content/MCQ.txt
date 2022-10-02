@@ -1,0 +1,560 @@
+Source:https://www.itiportal.in/2021/10/javascript-mcq-questions-and-answers-pdf.html
+Retrieved: October 1, 2022
+
+1. NaN stands for_________.
+
+a) Nano                      
+
+b) NanTech   
+
+c) Not  a number      
+
+d) New attactedNematic
+
+Ans. c
+
+ 
+
+2. ++ operator in Java Script is ____ Operator.
+
+a) Unary         
+
+b) Positive     
+
+c) Increment  
+
+d) Addition
+
+Ans. a
+
+ 
+
+3. A translator is described as ________ software.
+
+a) Application           
+
+b) System      
+
+c) Utility          
+
+d) Open Source
+
+Ans. b
+
+ 
+
+4. _______class provide an interface for invoking java script methods and examining java script properties.
+
+ a) JSobject   
+
+b) java script file       
+
+c) jquary         
+
+d) java wrapper
+
+Ans. a
+
+ 
+
+5. When a user views a page containing a java script program, which machine actually executes the script?
+
+a) The user’s machine running offline                
+
+b) The user’s machine running  a web browser           
+
+c) The user’s machine running on a website     
+
+d) The users cookies used by a website
+
+Ans. b
+
+ 
+
+6. Navigator Java script is also called _______side java script.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. a
+
+ 
+
+7. Live wire java script is also called _________side Java Script.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. b
+
+ 
+
+8. Storing numbers, dates or other values are ______ used for in java script program.
+
+a) String         
+
+b) Codes        
+
+c) Variables               
+
+d) Functions
+
+Ans. c
+
+ 
+
+9. ______ side java script statements embedded in  a HTML Page can respond to user events such as mouse-clicks, forms input and page navigation.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. a
+
+ 
+
+10.When a java script object is sent to java, the runtime engine creates a java wrapper of type_______.
+
+a) JSobject    
+
+b) java script file       
+
+c) jquary         
+
+d) java wrapper
+
+Ans. a
+
+ 
+
+11. _________attribute can hold the java script version.
+
+a) var              
+
+b) language              
+
+c) type                        
+
+d) script
+
+Ans. b
+
+ 
+
+12. ________side image maps can be used with java script.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. a
+
+
+
+13. In java script, A _____ is an object of the target language data type that enclose an object of the source language.
+
+a) variable     
+
+b) string          
+
+c) wrapper     
+
+d) client
+
+Ans. c
+
+ 
+
+14. Java script is an ________scripting language.
+
+a) object oriented     
+
+b) client oriented      
+
+c) network oriented  
+
+d) server oriented
+
+Ans. a
+
+ 
+
+15. File is ________side java script object.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. b
+
+
+
+16. File Upload is the _____ side java script object.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. a
+
+
+
+17. Java script is interpreted by ______.
+
+a) client                      
+
+b) Server        
+
+c) Website     
+
+d) Live wire
+
+Ans. a
+
+ 
+
+18. ____ tag can handle mouse events in Netscape.
+
+a) <a>             
+
+b) <onclick>  
+
+c) <net>          
+
+d) <control>
+
+Ans. a
+
+ 
+
+19. _______ is the tainted property of a window object.
+
+a) default window    
+
+b) default status       
+
+c) default functions 
+
+d) default object
+
+Ans. b
+
+ 
+
+20. Javascriptcan be used for programming______.
+
+(a) client side browser
+
+(b) server side (using Node JS)
+
+(c) game development/ desktop applications & mobile apps
+
+(d) all of them
+
+Ans. d
+
+ 
+
+21. Javascript variables are ______ typed.
+
+(a) statically               
+
+(b) strongly                
+
+(c) dynamically         
+
+(d) globally
+
+Ans. c
+
+ 
+
+22. Javascript language supports ______concepts of programming.
+
+(a) object oriented    
+
+(b) procedural           
+
+(c) imperative/functional     
+
+(d) all of them
+
+Ans. c
+
+ 
+
+23. Design concepts of Javascript language were taken from_______ .
+
+(a) C & C#
+
+(b) COBOL & ADA
+
+(c) BASIC & FORTRAN
+
+(d) Self & Scheme
+
+Ans. d
+
+
+
+24. JavaScript runs was developed by_______.
+
+(a) Netscape Communications
+
+(b) Microsoft corporation
+
+(c) Sun Microsystems
+
+(d) Oracle
+
+Ans. a
+
+ 
+
+25. Javascript code is written within _______ tags.
+
+(a) <html> ::: < =html >
+
+(b) <body> ::: < =body >
+
+(c) <script> ::: < /script >
+
+(d) <table> ::: < =table >
+
+Ans. c
+
+ 
+
+26. Javascript script type is identified by the parameter type= _______.
+
+(a) "text/vbscript"
+
+(b) "text/javascript"
+
+(c) "text/html"
+
+(d) "text/plain"
+
+Ans. b
+
+ 
+
+27. Javascript language is identified by the parameter language=______ .
+
+(a) "javascript"           
+
+(b) "vbscript"              
+
+(c) "vba"         
+
+(d) "java"
+
+Ans. a
+
+ 
+
+28. Javascriptcomplies with______ standard.
+
+(a) Indian
+
+(b) British
+
+(c) ASCII
+
+(d) ECMA-262 & ISO/IEC 16262
+
+Ans. d
+
+ 
+
+29. _______statement in JavaScript helps to evaluate any mathematical string at runtime.
+
+(a) value        
+
+(b) eval           
+
+(c) calc           
+
+(d) cal
+
+Ans. b
+
+ 
+
+30. Method is a function bound to_______.
+
+(a) a procedure        
+
+(b) a library               
+
+(c) a script     
+
+(d) an object
+
+Ans. d
+
+ 
+
+31. The system of notations used to effectively process string related operations is called ______ .
+
+(a) impression
+
+(b) parser
+
+(c) regular expression
+
+(d) concatenation
+
+Ans. c
+
+ 
+
+32. In JavaScript, ________ is used for multiline comments.
+
+(a) /* ... */        
+
+(b) {…..}          
+
+(c) # ... #         
+
+(d) $ ... $
+
+Ans. a
+
+
+
+33. In JavaScript, _______ is used for single line comments.
+
+(a) {...} 
+
+(b) // ...            
+
+(c) # ... #         
+
+(d) $ ... $
+
+Ans. b
+
+ 
+
+34. In JavaScript, keywords/ reserved words_____ be used as variables, labels or function names.
+
+(a) may           
+
+(b) should always    
+
+(c) can            
+
+(d) must not
+
+Ans. d
+
+ 
+
+35. ______event gets activated when a component looses focus.
+
+(a) onfocus    
+
+(b) onblur       
+
+(c) onclick      
+
+(d) onerror
+
+Ans. b
+
+ 
+
+36. _____ event gets activated when a component gains focus.
+
+(a) onfocus    
+
+(b) onblur       
+
+(c) onclick      
+
+(d) onerror
+
+Ans. a
+
+ 
+
+37._____ event gets activated when an error occurs during execution of script.
+
+(a) onfocus    
+
+(b) onblur      
+
+(c) onclick      
+
+(d) onerror
+
+Ans. d
+
+ 
+
+38. _____event gets activated when a component is clicked.
+
+(a) onfocus    
+
+(b) onblur       
+
+(c) onclick      
+
+(d) onerror
+
+Ans. c
+
+ 
+
+39. ______event gets activated when a key moves down.
+
+(a) onkeydown         
+
+(b) onkeyup   
+
+(c) onkeypress          
+
+(d) onmouseover
+
+Ans. a
+
+ 
+
+40. ______event gets activated when a key is pressed.
+
+(a) onkeydown         
+
+(b) onkeyup   
+
+(c) onkeypress          
+
+(d) onmouseover
+
+Ans. c

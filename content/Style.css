@@ -18,7 +18,7 @@ body {
     color:var(--7);
     font-size: 50px;
 }
-
+/* Start Quiz Button-Begin*/
 #StartQuiz {
     background-color:
         var(--3);
@@ -29,6 +29,35 @@ body {
     border-radius: 10px;
 }
 
+#StartQuiz:hover {
+    background-color: var(--1);
+    color:var(--5)
+}
+
+#StartQuiz:active {
+    background-color: var(--5) ;
+    color:var(--1);
+}
+/* Start Quiz Button-End*/
+.answer {
+    background-color:var(--3);
+    color:var(--6);
+    font-size: 30px;
+    margin-top: 15%;
+    margin-bottom: 70px;
+    border-radius: 10px;  
+    width:100px;
+}
+
+.answer:hover {
+    background-color: var(--1);
+    color:var(--5)
+}
+
+.answer:active {
+    background-color: var(--5) ;
+    color:var(--1);
+}
 #StartQuiz:hover {
     background-color: var(--1);
     color:var(--5)
@@ -50,7 +79,7 @@ body {
     background-color: var(--6);
     /* width: 100%vw; */
     min-height: 490px;
-   
+    border-radius: 10px;
     margin: 5%;
     float: center;
     text-align: center;
@@ -60,3 +89,4 @@ body {
     
 
 }
+
