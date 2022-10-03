@@ -2,9 +2,14 @@
 //Event listener on the start quiz button
     
     function startButton(){
-        console.log("It's Alive")
+        // console.log("It's Alive")
+        //selecting element
+        // document.getElementById("startBox"); 
+        //set attribute
+        startBox.setAttribute("style", "display: none");
+        questionBox.setAttribute("style", "display: contents");
+
     };
-    
     document.getElementById("StartQuiz").addEventListener("click",startButton);
     //syntax - element.addEventListener(event, function, useCapture);
     //at event action page layout will change by data attributes
