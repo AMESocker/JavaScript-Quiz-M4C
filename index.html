@@ -8,35 +8,53 @@
     <link rel="stylesheet" href="content/Style.css" />
 </head>
 <body>
-    <!-- Start Layout -->
     
-    <div id="quizBox"> <!-- Container of quiz area -->
-        <p id="Title">JavaScript Quiz </p>
-        
-        <div>
-            <div><p id="instructions">Test your JavaScript knowledge with this quiz.
+    
+    <div class="quizBox"> <!-- Container of quiz area -->
+        <div id="startBox"><!-- Start Layout -->
+            <p id="Title">JavaScript Quiz </p>
+            <div>
+                <div><p id="instructions">Test your JavaScript knowledge with this quiz.
                 You will have a time limit of (X) seconds. When an answer is wrong time will be taken off the timer.</p>
-            <button id="StartQuiz">Start Quiz</button> <!-- Start button -->
-            
+                <button id="StartQuiz">Start Quiz</button> <!-- Start button -->
+                </div>
             </div>
         </div>
+        <!-- Question Layout -->
+        <div id="questionBox">
+            <p id="Title">Question <span value="1">1</span></p>
+                <!-- Answer button -->
+            <div>
+                <div><p id="instructions">Test your JavaScript knowledge with this quiz.
+                You will have a time limit of (X) seconds. When an answer is wrong time will be taken off the timer.</p>
+                </div>
+                <div>
+                    <button class="answer" id="a">A</button> 
+                    <button class="answer" id="b">B</button> 
+                    <button class="answer" id="c">C</button> 
+                    <button class="answer" id="d">D</button> 
+                </div>
+            </div>
+        </div>    
     </div>
 
     <!-- Quiz Layout -->
-    <div id="quizBox"> <!-- Container of quiz area -->
-        <p id="Title">Question <span value="1">1</span></p>
-            <!-- Answer button -->
-        <div>
-            <div><p id="instructions">Test your JavaScript knowledge with this quiz.
-                You will have a time limit of (X) seconds. When an answer is wrong time will be taken off the timer.</p>
-            </div>
+    <div class="quizBox"> <!-- Container of quiz area -->
+        <div id="questionBox">
+            <p id="Title">Question <span value="1">1</span></p>
+                <!-- Answer button -->
             <div>
-                <button class="answer" id="a">A</button> 
-                <button class="answer" id="b">B</button> 
-                <button class="answer" id="c">C</button> 
-                <button class="answer" id="d">D</button> 
+                <div><p id="instructions">Test your JavaScript knowledge with this quiz.
+                You will have a time limit of (X) seconds. When an answer is wrong time will be taken off the timer.</p>
+                </div>
+                <div>
+                    <button class="answer" id="a">A</button> 
+                    <button class="answer" id="b">B</button> 
+                    <button class="answer" id="c">C</button> 
+                    <button class="answer" id="d">D</button> 
+                </div>
             </div>
-        </div>
+        </div>    
     </div>
    
     
@@ -46,6 +64,6 @@
 
     <!-- question and answer portion -->
 
-
+    <script src="./content/Script.js"></script>
 </body>
 </html>

@@ -74,7 +74,7 @@ body {
     margin-inline:15%;
 }
 
-#quizBox {
+.quizBox {
     color: var(--7);
     background-color: var(--6);
     /* width: 100%vw; */
@@ -86,7 +86,14 @@ body {
     padding: 10px;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+#startBox {
+    /* display:none; */
+    visibility: visible;
+}
 
+#questionBox {
+    display:none;
+    /* visibility: visible; */
 }
 
