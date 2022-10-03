@@ -1,10 +1,12 @@
 
 //Event listener on the start quiz button
     
-    var startButton = document.getElementById("#StartQuiz");
+    function startButton(){
+        console.log("It's Alive")
+    };
     
-    startButton.addEventListener("click",19);
-    
+    document.getElementById("StartQuiz").addEventListener("click",startButton);
+    //syntax - element.addEventListener(event, function, useCapture);
     //at event action page layout will change by data attributes
     //Timer will start
         //Timer will be every one second or 1000 milliseconds
