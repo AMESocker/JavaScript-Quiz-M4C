@@ -10,9 +10,16 @@ function startButton(){
     //set attribute
     startBox.setAttribute("style", "display: none");
     question1Box.setAttribute("style", "display: contents");
-    // setTimeout(function, 6000);
+    
+    
 };
-
+var seconds = 60;
+var clockSelector = document.getElementById('Clock');
+function counterSeconds(){
+    seconds -= 1;
+    clockSelector.innerHTML = seconds;
+}
+var cancel = setInterval(counterSeconds,1000);
 // document.getElementsByClassName("answer").addEventListener("click",nextQuestion);
 //Console doesn't like preceding statement
 
@@ -21,7 +28,7 @@ document.getElementById('1a').addEventListener("click",nextQuestion);
 document.getElementById('1b').addEventListener("click",nextQuestion);
 document.getElementById('1c').addEventListener("click",correctQuestion);
 document.getElementById('1d').addEventListener("click",nextQuestion);
-// document.getElementById('Clock');
+document.getElementById('Clock');
 
 function nextQuestion(){ 
     console.log("Put...the candle...back!");
