@@ -1,5 +1,5 @@
 :root{
-/* color palate */
+/* color palette */
 --1:#FFFFFFff;
 --2:#05030Eff;
 --3:#FEF457ff;
@@ -14,9 +14,9 @@ body {
     color: var(--7);
     
 }
-#Title {
-    color:var(--7);
-    font-size: 50px;
+.Title {
+    /* color:var(--7); */
+    /* font-size: 50px; */
 }
 /* Start Quiz Button-Begin*/
 #StartQuiz {
@@ -43,7 +43,7 @@ body {
     background-color:var(--3);
     color:var(--6);
     font-size: 30px;
-    margin-top: 15%;
+    margin-top: 20px;
     margin-bottom: 70px;
     border-radius: 10px;  
     width:100px;
@@ -69,7 +69,7 @@ body {
 }
 #instructions {
     color: var(--4);
-    font-size: 19px;
+    font-size:30px;
     margin-top: 7%;
     margin-inline:15%;
 }
@@ -88,12 +88,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 #startBox {
-    display:none;
+    /* display:none; */
     display:contents;
 }
 
-#questionBox {
+#question1Box {
     display:none;
     /* display:contents; */
 }
 
+#question2Box {
+    display:none;
+}
+#endBox {
+    display:none;
+}
+#Clock {
+    color: var(--1);
+    margin: 0px;
+    border:0px;
+    padding:0px
+}
+
+.choice {
+    font-size: 20px;
+}
+#playAgain {
+    width: 400px;
+}

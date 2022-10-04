@@ -13,29 +13,61 @@
     <div class="quizBox"> <!-- Container of quiz area -->
         <!-- Start Layout -->
         <div id="startBox">
-            <p id="Title">JavaScript Quiz </p>
+            <p class="Title" id="startTitle">JavaScript Quiz </p>
             <div>
                 <div><p id="instructions">Test your JavaScript knowledge with this quiz.
-                You will have a time limit of (X) seconds. When an answer is wrong time will be taken off the timer.</p>
+                You will have a time limit of 60 seconds. When an answer is wrong time will be taken off the timer.</p>
                 <button id="StartQuiz">Start Quiz</button> <!-- Start button -->
                 </div>
             </div>
         </div>
-        <!-- Question Layout -->
-        <div id="questionBox">
-            <p id="Title">Question <span value="1">1</span></p>
-                <!-- Answer button -->
+        <!-- 1st Question Layout -->
+        <div id="question1Box">
+            <p class="Title" id="questionTitle">Question 1</span>
+            <span id="Clock" value="60">60</span></p>
             <div>
-                <div><p id="instructions">This is the first question.</p>
+                <div><p class="question" id="instructions">What type of oriented scripting language is Javascript?</p>
+                    <p class="choice">A. Client</p>
+                    <p class="choice">B. Network</p>
+                    <p class="choice">C. Object</p><!--Correct-->
+                    <p class="choice">D. Server</p>
                 </div>
                 <div>
-                    <button class="answer" id="a">A</button> 
-                    <button class="answer" id="b">B</button> 
-                    <button class="answer" id="c">C</button> 
-                    <button class="answer" id="d">D</button> 
+                    <button class="answer" id="1a">A</button> 
+                    <button class="answer" id="1b">B</button> 
+                    <button class="answer" id="1c">C</button> 
+                    <button class="answer" id="1d">D</button> 
                 </div>
             </div>
         </div>    
+        <!-- 2st Question Layout -->
+        <div id="question2Box">
+            <p class="Title" id="questionTitle">Question 2</span>
+            <span id="Clock" value="60">60</span></p>
+            <div>
+                <div><p class="question" id="instructions">This is the second question.</p>
+                    <p class="choice"></p>
+                </div>
+                <div>
+                    <button class="answer" id="2a">A</button> 
+                    <button class="answer" id="2b">B</button><!--correct-->
+                    <button class="answer" id="2c">C</button> 
+                    <button class="answer" id="2d">D</button> 
+                </div>
+            </div>
+        </div>
+        <!-- End Box -->
+        <div id="endBox">
+            <p class="Title" id="questionTitle">Finished</span></p>
+            <div>
+                <div><p class="question" id="instructions">Congratulations, you finished the quiz.</p>
+                    <p class="choice"></p>
+                </div>
+                <p id="finalScore"></p>
+                <div>
+                    <button class="answer" id="playAgain">Take quiz again?</button> 
+                </div>
+            </div>    
     </div>
 
     <!-- a button for each answer choice-->
