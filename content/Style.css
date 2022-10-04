@@ -103,11 +103,14 @@ body {
 #endBox {
     display:none;
 }
-#Clock {
+#clock {
     color: var(--1);
     margin: 0px;
     border:0px;
-    padding:0px
+    padding:0px;
+    display:none;
+    /* position: absolute; */
+    /* justify-items: right; */
 }
 
 .choice {
