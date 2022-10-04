@@ -34,7 +34,7 @@ document.getElementById('1a').addEventListener("click",nextQuestion);
 document.getElementById('1b').addEventListener("click",nextQuestion);
 document.getElementById('1c').addEventListener("click",correctQuestion);
 document.getElementById('1d').addEventListener("click",nextQuestion);
-document.getElementById('Clock').minusTime;
+// document.getElementById('Clock').minusTime;
 
 function nextQuestion(){ 
     console.log("Put...the candle...back!");
