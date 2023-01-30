@@ -1,23 +1,26 @@
-:root{
-/* color palette */
---1:#FFFFFFff;
---2:#05030Eff;
---3:#FEF457ff;
---4:#017CD1ff;
---5:#ED4709ff;
---6:#012F50ff;
---7:#67FFFEff;  
+:root {
+    /* color palette */
+    --1: #FFFFFFff;
+    --2: #05030Eff;
+    --3: #FEF457ff;
+    --4: #017CD1ff;
+    --5: #ED4709ff;
+    --6: #012F50ff;
+    --7: #67FFFEff;
 
 }
+
 body {
     background-color: var(--2);
     color: var(--7);
-    
+
 }
+
 .Title {
     /* color:var(--7); */
     /* font-size: 50px; */
 }
+
 /* Start Quiz Button-Begin*/
 #StartQuiz {
     background-color:
@@ -31,47 +34,50 @@ body {
 
 #StartQuiz:hover {
     background-color: var(--1);
-    color:var(--5)
+    color: var(--5)
 }
 
 #StartQuiz:active {
-    background-color: var(--5) ;
-    color:var(--1);
+    background-color: var(--5);
+    color: var(--1);
 }
+
 /* Start Quiz Button-End*/
 .answer {
-    background-color:var(--3);
-    color:var(--6);
+    background-color: var(--3);
+    color: var(--6);
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 70px;
-    border-radius: 10px;  
-    width:100px;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .answer:hover {
     background-color: var(--1);
-    color:var(--5)
+    color: var(--5)
 }
 
 .answer:active {
-    background-color: var(--5) ;
-    color:var(--1);
+    background-color: var(--5);
+    color: var(--1);
 }
+
 #StartQuiz:hover {
     background-color: var(--1);
-    color:var(--5)
+    color: var(--5)
 }
 
 #StartQuiz:active {
-    background-color: var(--5) ;
-    color:var(--1);
+    background-color: var(--5);
+    color: var(--1);
 }
+
 #instructions {
     color: var(--4);
-    font-size:30px;
+    font-size: 30px;
     margin-top: 7%;
-    margin-inline:15%;
+    margin-inline: 15%;
 }
 
 .quizBox {
@@ -87,28 +93,34 @@ body {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #startBox {
     /* display:none; */
-    display:contents;
+    display: contents;
 }
 
 #question1Box {
-    display:none;
-    /* display:contents; */
+    /* display:none; */
+    display: contents;
 }
 
 #question2Box {
-    display:none;
+    /* display:none; */
+    display: contents;
 }
+
 #endBox {
-    display:none;
+    /* display:none; */
+    display: contents;
 }
+
 #clock {
     color: var(--1);
     margin: 0px;
-    border:0px;
-    padding:0px;
-    display:none;
+    border: 0px;
+    padding: 0px;
+    /* display:none; */
+    display: contents;
     /* position: absolute; */
     /* justify-items: right; */
 }
@@ -116,6 +128,7 @@ body {
 .choice {
     font-size: 20px;
 }
+
 #playAgain {
     width: 400px;
 }
