@@ -1,4 +1,4 @@
-# Module-4-Challenge
+# JavaScript-Quiz-M4C
 Web APIs: Code Quiz
 
 ## Installation
